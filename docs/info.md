@@ -1,5 +1,7 @@
 # NeurIPS - Ariel Data Challenge 2024
 
+[Official Website](https://www.ariel-datachallenge.space/)
+
 ## Timeline
 
 - **August 1, 2024** - Start Date.
