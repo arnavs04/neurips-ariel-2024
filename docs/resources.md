@@ -84,9 +84,7 @@ https://www.kaggle.com/datasets/gordonyip/binned-dataset-v3/data
 
 ## ChatGPT Chats
 
-[Bibhu]
-(https://chatgpt.com/share/38b3f7ac-da76-48e5-a0df-7fce2c7aed08)
+[Bibhu](https://chatgpt.com/share/38b3f7ac-da76-48e5-a0df-7fce2c7aed08)
 
-Me
-https://chatgpt.com/share/6ec0427a-542a-45fc-82b9-d795951e2227
+[Me](https://chatgpt.com/share/6ec0427a-542a-45fc-82b9-d795951e2227)
 
