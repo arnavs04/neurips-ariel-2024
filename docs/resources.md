@@ -58,11 +58,11 @@
 # Mine
 ## Competition
 
-https://www.kaggle.com/competitions/ariel-data-challenge-2024
+[Competition Link](https://www.kaggle.com/competitions/ariel-data-challenge-2024)
 
 ## Discussion
 
-https://www.kaggle.com/competitions/ariel-data-challenge-2024/discussion/524287 **Resources**
+[Resources](https://www.kaggle.com/competitions/ariel-data-challenge-2024/discussion/524287)
 
 ## Code
 
@@ -80,7 +80,7 @@ https://www.kaggle.com/code/seshurajup/neurips-eda
 
 ## Dataset
 
-https://www.kaggle.com/datasets/gordonyip/binned-dataset-v3/data
+[Calibrated and Binned Data](https://www.kaggle.com/datasets/gordonyip/binned-dataset-v3/data)
 
 ## ChatGPT Chats
 
