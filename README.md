@@ -10,4 +10,4 @@ Repository for [NeurIPS Ariel 2024 Challenge](https://www.kaggle.com/competition
 
 ## Competition Results
 - **Final Rank:** 257 out of 1,152 participants
-- **Score:** 0.5704 (on 65% of Test Data)
+- **Score:** 0.5704
