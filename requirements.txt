@@ -2,7 +2,6 @@ pandas
 numpy
 scipy
 tqdm
-pqdm
 scikit-learn
 plotly
 astropy
