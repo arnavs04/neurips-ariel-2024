@@ -9,5 +9,5 @@ Repository for [NeurIPS Ariel 2024 Challenge](https://www.kaggle.com/competition
   - Bibhu Sundar Mohapatra (NIT Rourkela)
 
 ## Competition Results
-- **Final Rank:** 263 out of 1,168 participants
+- **Final Rank:** 257 out of 1,152 participants
 - **Score:** 0.570 (on 65% of Test Data)
