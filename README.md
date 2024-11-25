@@ -7,7 +7,7 @@ Repository for [NeurIPS Ariel 2024 Challenge](https://www.kaggle.com/competition
 - **Team Members:** Arnav Samal, Bibhu Sundar Mohapatra (NIT Rourkela)
 - **Results:**
   - **Final Rank:** 257 out of 1,152 participants
-  - **Score:** 0.5704
+  - **Score:** 0.5704 (based on the Gaussian Log-likelihood evaluation)
 
 ## Methodology
 
