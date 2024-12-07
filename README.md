@@ -20,18 +20,16 @@ To enhance interpretability, we apply a rigorous preprocessing pipeline:
 
 1. **Calibration of Raw Signals**
 Calibration transforms raw sensor data into a meaningful format:
-	• Scaling: Normalizes values to mitigate sensor scale discrepancies.
-	• Dead Pixel Elimination: Removes faulty sensor readings.
-	• Advanced Calibration: Applies techniques per calibration documentation.
-	• Wavelength Selection: Restricts AIRS-CH0 data to 40th–321st wavelengths, corresponding to 2nd–283rd target positions.
+	- Scaling: Normalizes values to mitigate sensor scale discrepancies.
+ 	- Dead Pixel Elimination: Removes faulty sensor readings.
+  	- Advanced Calibration: Applies techniques per calibration documentation.
+   	- Wavelength Selection: Restricts AIRS-CH0 data to 40th–321st wavelengths, corresponding to 2nd–283rd target positions.
 
-2. **Temporal and Spatial Aggregation**
-	• Temporal Aggregation: FGS1 is aggregated into [187, 32, 32], and AIRS-CH0 into [187, 32, 282].
-	• Spatial Reduction: Retain center pixels, reducing FGS1 to [187, 12, 12] and AIRS-CH0 to [187, 12, 282], then average spatial dimensions:
-	• FGS1: [187, 1]
-	• AIRS-CH0: [187, 282]
+3. **Temporal and Spatial Aggregation**
+   	- Temporal Aggregation: FGS1 is aggregated into [187, 32, 32], and AIRS-CH0 into [187, 32, 282].
+   	- Spatial Reduction: Retain center pixels, reducing FGS1 to [187, 12, 12] and AIRS-CH0 to [187, 12, 282], then average spatial dimensions: FGS1: [187, 1], AIRS-CH0: [187, 282]
 
-3. **Signal Concatenation**
+5. **Signal Concatenation**
 Processed FGS1 and AIRS-CH0 signals are concatenated into a final array of shape [187, 283], forming the basis for spectral predictions.
 
 ### Spectra Prediction
