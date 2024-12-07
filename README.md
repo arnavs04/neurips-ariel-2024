@@ -39,13 +39,13 @@ The task of spectra prediction focuses on determining a constant value, which op
 Using the preprocessed signal, the time intervals corresponding to the planet's transit are identified:
   1. Finding the Minimum Signal: The signal is scanned within a subset range (time steps 30–140), identifying the point of minimum flux.
   2. Gradient Analysis:
-     - Gradients of the signal before and after the minimum flux are computed and normalized.
-     - Phase points phase1 and phase2 are determined as the start and end of the transit, based on minimum and maximum gradients, respectively.
+   	- Gradients of the signal before and after the minimum flux are computed and normalized.
+     	- Phase points phase1 and phase2 are determined as the start and end of the transit, based on minimum and maximum gradients, respectively.
 
 2. **Signal Optimization**
 Using the identified transit phases (phase1, phase2), the goal is to find a constant such that:
-  - The adjusted signal minimizes the error of fitting a cubic polynomial.
-  - The optimization problem is solved using the Nelder-Mead method to find the value of that ensures smoothness of the signal across the transit interval.
+	- The adjusted signal minimizes the error of fitting a cubic polynomial.
+ 	- The optimization problem is solved using the Nelder-Mead method to find the value of that ensures smoothness of the signal across the transit interval.
 
 ### Conclusion
 The spectra predictions for each wavelength are obtained by aggregating the mean of the preprocessed signals and applying the above optimization routine. This pipeline effectively identifies the spectral characteristics of the planet by leveraging calibrated sensor data and robust mathematical modeling of the transit signal.
